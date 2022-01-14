@@ -7,7 +7,8 @@ databaseURL: "https://smartconnection-9d342.firebaseio.com",
 projectId: "smartconnection-9d342",
 storageBucket: "smartconnection-9d342.appspot.com",
 messagingSenderId: "467477051637",
-appId: "1:467477051637:web:79703492fcd8c86889adbc"
+appId: "1:467477051637",
+web: "79703492fcd8c86889adbc"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
