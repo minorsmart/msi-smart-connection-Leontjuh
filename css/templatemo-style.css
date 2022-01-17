@@ -355,6 +355,8 @@ a.lightbox img {
     /* Force Hardware Acceleration in WebKit */
         -webkit-transform: translateZ(0);
         -webkit-backface-visibility: hidden;
+        transform: none;
+        backface-visibility: hidden;
     }
 
     .cssanimations .cd-timeline-img.is-hidden {
@@ -512,6 +514,8 @@ a.lightbox img {
     /* Force Hardware Acceleration in WebKit */
         -webkit-transform: translateZ(0);
         -webkit-backface-visibility: hidden;
+        transform:none;
+        backface-visibility: hidden;
     }
 
     .cssanimations .imageForFirstTimeline.is-hidden {
