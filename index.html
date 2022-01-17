@@ -385,7 +385,7 @@ http://www.templatemo.com/preview/templatemo_427_timeline
                                 <img src="images/smartProject-02-Sprints.png" alt="">
                                 <div class="project-content">
                                     <h2>start (opstellen Projectplan)</h2>
-                                    <span>12 December 2084</span>
+                                    <span>11-10-2021</span>
                                 </div>
                             </div>
                         </div>
@@ -1304,7 +1304,7 @@ http://www.templatemo.com/preview/templatemo_427_timeline
 
                             </div>
                             <div class="cd-timeline-content projects">
-                                <img src="images/smartProject-22-img01.PNG" alt="">
+                                <img src="images/smartProject-22-img01.png" alt="">
                                 <div class="project-content">
                                     <h2>Werkend proof of concept</h2>
                                     <span>21-12-2021)</span>
@@ -1435,6 +1435,7 @@ http://www.templatemo.com/preview/templatemo_427_timeline
 
 
     <!-- Javascripts -->
+
     <script>
         function initialize() {
             var mapProp = {
@@ -1451,8 +1452,6 @@ http://www.templatemo.com/preview/templatemo_427_timeline
         google.maps.event.addDomListener(window, 'resize', function () {
             map.setCenter(mapProp.center);
         });
-    </script>
-    <script>
         function generateModal(name, buttonName, closeCommand) {
             // Get the modal
             var modal = document.getElementById(name);
@@ -1506,30 +1505,7 @@ http://www.templatemo.com/preview/templatemo_427_timeline
         generateModal("myModal23", "modalButton23", "close23");
         generateModal("myModal24", "modalButton24", "close24");
         generateModal("myModal25", "modalButton25", "close25");
-            /*
-var modalName = "myModal";
-var modalButtonName = "modalButton";
-var closeName = "close";
-//document.getElementById("debug").innerHTML = modalName;
-// dynamisch genereren tot 100 modals
-for (let i = 1; i <= 9; i++) {
-if (i < 10) {
-modalName = modalName.concat("0");
-modalButtonName = modalButtonName.concat("0");
-closeName = closeName.concat("0");
-}
-modalName = modalName.concat(i.toString());
-modalButtonName = modalButtonName.concat(i.toString());
-closeName = closeName.concat(i.toString());
-document.getElementById("debug").innerHTML = modalButtonName;
-generateModal(modalName, modalButtonName, closeName);
- 
-}
-*/
-
-
-    </script>
-    <script>
+        
         function includeHTML(attributeName) {
             var z, i, elmnt, file, xhttp;
             /* Loop through a collection of all HTML elements: */
@@ -1560,7 +1536,29 @@ generateModal(modalName, modalButtonName, closeName);
         includeHTML("smartStart");
         includeHTML("smartConnection");
         includeHTML("smartTechnology");
-        includeHTML("smartBusiness");
+        includeHTML("smartBusiness");    
+        /*
+var modalName = "myModal";
+var modalButtonName = "modalButton";
+var closeName = "close";
+//document.getElementById("debug").innerHTML = modalName;
+// dynamisch genereren tot 100 modals
+for (let i = 1; i <= 9; i++) {
+if (i < 10) {
+modalName = modalName.concat("0");
+modalButtonName = modalButtonName.concat("0");
+closeName = closeName.concat("0");
+}
+modalName = modalName.concat(i.toString());
+modalButtonName = modalButtonName.concat(i.toString());
+closeName = closeName.concat(i.toString());
+document.getElementById("debug").innerHTML = modalButtonName;
+generateModal(modalName, modalButtonName, closeName);
+ 
+}
+*/
+
+
     </script>
     <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
     <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
